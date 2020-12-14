@@ -767,7 +767,7 @@
 	/*Caja 1*/
 	.bck-box.box-1 {
 	    background: #81B2D1;
-	    padding: 40px;
+	    padding: 21px 40px 16px 40px;
 	    position: relative;
 	    margin-top: 60px;
 	    border: 3px dashed #0081b0;
@@ -796,7 +796,7 @@
 	/*Caja 2*/
 	.bck-box.box-2 {
 	    background: #81B2D1;
-	    padding: 40px;
+	    padding: 21px 40px 16px 40px;
 	    position: relative;
 	    margin-top: 60px;
 	    border: 3px solid #0081b0;
@@ -819,10 +819,10 @@
 	/*Caja 3*/
 	.bck-box.box-3 {
 	    background: #81B2D1;
-	    padding: 40px;
+	    padding: 21px 40px 16px 40px;
 	    position: relative;
 	    margin-top: 60px;
-	    border: 3px solid #231F20;
+	    border: 3px dashed #231F20;
 	    border-radius: 50px;
 	}
 
@@ -841,7 +841,7 @@
 	/*Caja 4*/
 	.bck-box.box-4 {
 	    background: #81B2D1;
-	    padding: 40px;
+	    padding: 21px 40px 16px 40px;
 	    position: relative;
 	    margin-top: 60px;
 	    border: 3px dashed #231F20;
