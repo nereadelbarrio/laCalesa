@@ -117,11 +117,13 @@
 	}
 
 	.content_type_clase_laCalesa #actividad .content .header {
-		background: #e94442;
+		background: #297fac;
 		margin: 0 -88px 40px;
 		padding-left: 150px;
 		padding-right: 40px;
 		position: relative;
+		font-family: 'Conv_BarmeM72', Georgia, serif;
+
 	}
 	.content_type_clase_laCalesa #actividad .content .header:before {
 		content: '';
