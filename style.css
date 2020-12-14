@@ -860,6 +860,7 @@
 		font-size: 1.8rem;
 	}
 
+	.bck-box.box-1 .bck-title p,
 	.bck-box.box-2 .bck-title p,
 	.bck-box.box-3 .bck-title p {
 		margin-bottom: 0;
