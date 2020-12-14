@@ -19,7 +19,9 @@
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
+				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis-1' }},
+				{ name: 'Segoe print', element: 'span', attributes: { 'class': 'bck-enfasis-2' }},
+				{ name: 'My font', element: 'span', attributes: { 'class': 'bck-enfasis-3' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
@@ -152,4 +154,3 @@ $(document).ready(function () {
 	}
 
 });
-
