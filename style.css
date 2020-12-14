@@ -745,7 +745,7 @@
 		margin-right: auto;
 	}
 
-	.bck-box .bck-title {
+	/*.bck-box .bck-title {
 		font-size: 2.5rem;
 		margin-bottom: 10px;
 	}
@@ -762,8 +762,9 @@
 		margin-left: 0;
 		padding: 0;
 		margin-bottom: 10px;
-	}
+	}*/
 
+	/*Caja 1*/
 	.bck-box.box-1 {
 	    background: #81B2D1;
 	    padding: 40px;
@@ -771,12 +772,6 @@
 	    margin-top: 60px;
 	    border: 3px dashed #0081b0;
 	    border-radius: 50px;
-	}
-
-	.bck-box.box-1 hr {
-		border: 0;
-		display: block;
-		border-top: 1px solid #ffffff;
 	}
 
 	.bck-box.box-1 .bck-title{
@@ -788,134 +783,87 @@
 	.bck-box.box-1 .bck-content{
 		color: #ffffff;
 		font-family: 'Conv_segoepr';
-		font-size: 2.4rem;
+		font-size: 1.8rem;
 	}
 
-	.bck-box.box-1 ol,
+	/*.bck-box.box-1 ol,
 	.bck-box.box-1 ol li:before,
 	.bck-box.box-2 ol,
 	.bck-box.box-2 ol li:before {
 		color: #ffffff;
-	}
+	}*/
 
-	.bck-box.box-2,
-	.bck-box.box-3  {
-		border: 0;
-		padding: 20px;
-		font-size: 1.4rem;
-		position: relative;
-		margin-bottom: 40px;
-		box-shadow: 0 0 30px 0px rgba(0,0,0,.1);
-	}
-
+	/*Caja 2*/
 	.bck-box.box-2 {
-		background: #ed8da1;
-		margin-top: 50px;
+	    background: #81B2D1;
+	    padding: 40px;
+	    position: relative;
+	    margin-top: 60px;
+	    border: 3px solid #0081b0;
+	    border-radius: 50px;
+	}
+
+	.bck-box.box-2 .bck-title{
 		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
 	}
 
-	.bck-box.box-2:after {
-		content: '';
-		background: url(images/caja2-esquina.png) 0 0 no-repeat;
-		display: block;
-		width: 38px;
-		height: 38px;
-		position: absolute;
-		top: -35px;
-		right: -6px;
+	.bck-box.box-2 .bck-content{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 1.8rem;
 	}
 
-	.bck-box.box-2:before {
-		content: '';
-		background: #ed8da1;
-		margin-left: -20px;
-		margin-right: 10px;
-		margin-top: -55px;
-		width:auto;
-		height: 37px;
-		display: block;
-	}
+
+	/*Caja 3*/
 	.bck-box.box-3 {
-		margin-bottom: 80px;
-		background: #FFFF73;
-		position: relative;
-	}
-	.bck-box.box-3:after {
-		content: '';
-		background: url(images/caja3-flecha.png) 0 0 no-repeat;
-		display: block;
-		width: 74px;
-		height: 30px;
-		position: absolute;
-		bottom: -25px;
-		left: 50%;
-		margin-left: -37px;
-	}
-	.bck-box.box-3:before {
-		content: '';
-		background: url(images/exclamacion.png) 0 0 no-repeat;
-		display: block;
-		width: 60px;
-		height: 54px;
-		position: absolute;
-		top: -20px;
-		left: -30px;
-	}
-	.bck-box.box-2 .bck-title,
-	.bck-box.box-2 .bck-title1,
-	.bck-box.box-3 .bck-title,
-	.bck-box.box-3 .bck-title1 {
-		background: none;
-		font-size: 2.2rem;
-		margin-bottom: 22px;
-		font-family: 'Cabin Sketch', cursive;
-		color: #ffffff;
-		font-weight: 400;
+	    background: #81B2D1;
+	    padding: 40px;
+	    position: relative;
+	    margin-top: 60px;
+	    border: 3px solid #231F20;
+	    border-radius: 50px;
 	}
 
-	.bck-box.box-2 .bck-title {
+	.bck-box.box-3 .bck-title{
 		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
 	}
-	.bck-box.box-3 .bck-title {
+
+	.bck-box.box-3 .bck-content{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 1.8rem;
+	}
+
+	/*Caja 4*/
+	.bck-box.box-4 {
+	    background: #81B2D1;
+	    padding: 40px;
+	    position: relative;
+	    margin-top: 60px;
+	    border: 3px dashed #231F20;
+	    border-radius: 50px;
+	}
+
+	.bck-box.box-4 .bck-title{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
+	}
+
+	.bck-box.box-4 .bck-content{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 1.8rem;
 	}
 
 	.bck-box.box-2 .bck-title p,
 	.bck-box.box-3 .bck-title p {
 		margin-bottom: 0;
 	}
-
-	.bck-box.box-2 .bck-title2,
-	.bck-box.box-3 .bck-title2,
-	.bck-box.box-2 .bck-title3,
-	.bck-box.box-3 .bck-title3 {
-		margin-bottom: 10px;
-		font-size: 1.8rem;
-		color: #ffffff;
-		font-weight: 400;
-	}
-	.bck-box.box-2 .bck-title3,
-	.bck-box.box-3 .bck-title3 {
-		font-size: 1.6rem;
-	}
-	.bck-box.box-3 .bck-title,
-	.bck-box.box-3 .bck-title1,
-	.bck-box.box-3 .bck-title2,
-	.bck-box.box-3 .bck-title3 {
-		color: #85b426;
-
-	}
-
-	.bck-box.box-2 hr,
-	.bck-box.box-3 hr {
-		border: 0;
-		display: block;
-		border-top: 2px solid #ffffff;
-	}
-
-	.bck-box.box-3 hr {
-		border-top-color: #85b426;
-	}
-
 
 	.bck-box.box-2 ul li:before {
 		font-family: 'FontAwesome';
