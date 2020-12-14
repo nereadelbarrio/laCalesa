@@ -13,8 +13,6 @@
 	font-style: normal;
 }
 
-
-
 @font-face {
 	font-family: 'Conv_segoescb';
 	src: url('fonts/segoescb.eot');
@@ -757,10 +755,6 @@
 		margin-bottom: 10px;
 		padding-bottom: 0;
 	}
-	.bck-box .bck-title1:before,
-	.bck-box .bck-title2:before {
-		display: none;
-	}
 
 	.bck-box .bck-title1,
 	.bck-box .bck-title2 {
@@ -771,52 +765,30 @@
 	}
 
 	.bck-box.box-1 {
-		background: #85b426;
-		padding: 40px;
-		position: relative;
-		margin-top: 60px;
+	    background: #81B2D1;
+	    padding: 40px;
+	    position: relative;
+	    margin-top: 60px;
+	    border: 3px dashed #0081b0;
+	    border-radius: 50px;
 	}
-	.bck-box.box-1:after {
-		content: '';
-		background: url(images/caja1-esquina.png) 0 0 no-repeat;
-		display: block;
-		width: 32px;
-		height: 35px;
-		position: absolute;
-		top: -35px;
-		right: 0px;
-	}
-	.bck-box.box-1:before {
-		content: '';
-		/*background: url(images/caja1-pin.png) center top no-repeat #85b426;*/
-		background: #85b426;
-		margin-left: -40px;
-		margin-right: -8px;
-		margin-top: -75px;
-		width:auto;
-		height: 35px;
-		display: block;
-	}
+
 	.bck-box.box-1 hr {
 		border: 0;
 		display: block;
 		border-top: 1px solid #ffffff;
 	}
 
-	.bck-box.box-1 .bck-title,
-	.bck-box.box-1 .bck-title1 {
+	.bck-box.box-1 .bck-title{
 		color: #ffffff;
-		font-family: 'Cabin Sketch', cursive;
-		font-weight: 400;
+		font-family: 'Conv_segoepr';
 		font-size: 2.4rem;
 	}
 
-	.bck-box.box-1 .bck-title2 {
-		font-family: 'Raleway', sans-serif;
-		font-weight: 300;
-		font-size: 1.8rem;
-		margin-bottom: 10px;
+	.bck-box.box-1 .bck-content{
 		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
 	}
 
 	.bck-box.box-1 ol,
