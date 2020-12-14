@@ -183,9 +183,9 @@
 		font-size: 1.6rem;
 	}
 
-	.texto_curso p:last-of-type {
+	/*.texto_curso p:last-of-type {
 		margin-bottom: 15px;
-	}
+	}*/
 
 	#actividad .class_slide {
     	padding: 40px 88px 0px;
@@ -631,19 +631,16 @@
 		font-size: 2.5rem;
 	}
 
-	.bck-enfasis-1,
-	strong {
+	.bck-enfasis-1{
 		color: #E94442;
 		font-weight: bold;
 	}
 
-	.bck-enfasis-2,
-	strong {
+	.bck-enfasis-2{
 		font-family: 'Conv_segoepr';
 	}
 
-	.bck-enfasis-3,
-	strong {
+	.bck-enfasis-3{
 		font-family: 'Conv_MyFont-CuadriculaRegular';
 	}
 
@@ -653,7 +650,42 @@
 		border-top: 2px solid #85b426;
 	}
 
-	.content ol,
+
+/*LISTAS*/
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1,
+#actividad .content .workspace ul li .bck-ol-1,
+#actividad .popover-content .bck-ol-1 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .popover-content .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li {
+   counter-increment: bck-li-counter 1;
+	position: relative;
+	padding-left: 32px;
+}
+
+#actividad .content .cke_contents ol.bck-ol-1 li:before,
+#actividad .content .texto_curso ol.bck-ol-1 li:before,
+#actividad .popover-content ol.bck-ol-1 li:before,
+#actividad .content .workspace ul li ol.bck-ol-1 li:before {
+		content: counter(bck-li-counter)'. ';
+		position: absolute;
+		margin-left: -30px;
+		font-weight: bold;
+		font-size: 2.0rem;
+		text-align: right;
+		color: #85b426;
+		margin-top: -2px; 
+	}
+
+
+	/*.content ol,
 	.cke_contents ol {
 		list-style: none;
 		padding: 0;
@@ -676,7 +708,7 @@
 		text-align: right;
 		color: #85b426;
 		margin-top: -2px;
-	}
+	}*/
 
 	.texto_curso ul li,
 	.workspace ul li ul li,
@@ -769,7 +801,7 @@
 	    background: #81B2D1;
 	    padding: 21px 40px 16px 40px;
 	    position: relative;
-	    margin-top: 60px;
+	    margin-top: 25px;
 	    border: 3px dashed #0081b0;
 	    border-radius: 50px;
 	}
@@ -798,7 +830,7 @@
 	    background: #81B2D1;
 	    padding: 21px 40px 16px 40px;
 	    position: relative;
-	    margin-top: 60px;
+	    margin-top: 25px;
 	    border: 3px solid #0081b0;
 	    border-radius: 50px;
 	}
@@ -821,7 +853,7 @@
 	    background: #81B2D1;
 	    padding: 21px 40px 16px 40px;
 	    position: relative;
-	    margin-top: 60px;
+	    margin-top: 25px;
 	    border: 3px dashed #231F20;
 	    border-radius: 50px;
 	}
@@ -843,7 +875,7 @@
 	    background: #81B2D1;
 	    padding: 21px 40px 16px 40px;
 	    position: relative;
-	    margin-top: 60px;
+	    margin-top: 25px;
 	    border: 3px dashed #231F20;
 	    border-radius: 50px;
 	}
