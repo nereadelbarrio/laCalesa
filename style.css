@@ -4,6 +4,64 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic);
 
+/** Tipografias **/
+@font-face {
+	font-family: 'Conv_segoescb';
+	src: url('fonts/segoescb.eot');
+	src: local('☺'), url('fonts/segoescb.woff') format('woff'), url('fonts/segoescb.ttf') format('truetype'), url('fonts/segoescb.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_segoesc';
+	src: url('fonts/segoesc.eot');
+	src: local('☺'), url('fonts/segoesc.woff') format('woff'), url('fonts/segoesc.ttf') format('truetype'), url('fonts/segoesc.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_segoeprb';
+	src: url('fonts/segoeprb.eot');
+	src: local('☺'), url('fonts/segoeprb.woff') format('woff'), url('fonts/segoeprb.ttf') format('truetype'), url('fonts/segoeprb.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_segoepr';
+	src: url('fonts/segoepr.eot');
+	src: local('☺'), url('fonts/segoepr.woff') format('woff'), url('fonts/segoepr.ttf') format('truetype'), url('fonts/segoepr.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_segoepr';
+	src: url('fonts/segoepr.eot');
+	src: local('☺'), url('fonts/segoepr.woff') format('woff'), url('fonts/segoepr.ttf') format('truetype'), url('fonts/segoepr.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_BarmeM72';
+	src: url('fonts/BarmeM72.eot');
+	src: local('☺'), url('fonts/BarmeM72.woff') format('woff'), url('fonts/BarmeM72.ttf') format('truetype'), url('fonts/BarmeM72.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/**/
+
+
 	.body_clase .content-wrapper {
 		padding-top: 100px;
 		font-family: 'Raleway', Georgia, serif;
@@ -1078,4 +1136,3 @@ div.calculo table.marco * {
 body.print-mode .title *, body.print-mode .title {
     background-color: #e94442;
 }
-
