@@ -6,6 +6,15 @@
 
 /** Tipografias **/
 @font-face {
+	font-family: 'Conv_MyFont-CuadriculaRegular';
+	src: url('fonts/MyFont-CuadriculaRegular.eot');
+	src: local('☺'), url('fonts/MyFont-CuadriculaRegular.woff') format('woff'), url('fonts/MyFont-CuadriculaRegular.ttf') format('truetype'), url('fonts/MyFont-CuadriculaRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
 	font-family: 'Conv_segoescb';
 	src: url('fonts/segoescb.eot');
 	src: local('☺'), url('fonts/segoescb.woff') format('woff'), url('fonts/segoescb.ttf') format('truetype'), url('fonts/segoescb.svg') format('svg');
