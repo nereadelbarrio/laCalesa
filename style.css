@@ -156,28 +156,14 @@
 		margin-top: 0;
 		position: relative;
 	}
-
-	.content_type_clase_laCalesa #actividad .content .header .title h3:before {
+		.content_type_clase_laCalesa #actividad .content .header .title h3:before {
 		content: '';
-		display: block;
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 4px;
-		height: 100%;
-		background: rgba(0,0,0,.2);
-		border-radius: 0 15px 15px 0;
+		display: none;
 	}
+
 	.content_type_clase_laCalesa #actividad .content .header .title h3:after {
 		content: '';
-		display: block;
-		position: absolute;
-		left: -4px;
-		top: 0;
-		width: 4px;
-		height: 100%;
-		background: rgba(255,255,255,.2);
-		border-radius: 15px 0 0 15px;
+		display: none;
 	}
 
 	.content_type_clase_laCalesa #actividad .content .header .title h3 span {
