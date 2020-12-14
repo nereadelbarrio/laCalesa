@@ -24,6 +24,10 @@
 				{ name: 'My font', element: 'span', attributes: { 'class': 'bck-enfasis-3' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
+				{ name: 'Lista des 1', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
+
+				{ name: 'Lista ord 1', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
+
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
 
