@@ -548,17 +548,17 @@
 
 .js-slide-wrapper > .header .single-pagination {
 	position: absolute;
-	left: 60px;
-	bottom: 34px;
-	width: 90px;
-	height: 75px;
-	color: #ffffff;
-	font-size: 6.5rem;
-	line-height: 6.5rem;
-	padding: 2px 16px 2px 2px;
-	font-family: 'Conv_BarmeM72', cursive;
-	font-weight: 300;
-	text-align: right;
+    left: 60px;
+    bottom: 14px;
+    width: 90px;
+    height: 75px;
+    color: #ffffff;
+    font-size: 6.8rem;
+    line-height: 6.5rem;
+    padding: 2px 16px 2px 2px;
+    font-family: 'Conv_BarmeM72', cursive;
+    font-weight: 500;
+    text-align: right;
 }
 
 /* Iconos */
