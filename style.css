@@ -14,6 +14,7 @@
 }
 
 
+
 @font-face {
 	font-family: 'Conv_segoescb';
 	src: url('fonts/segoescb.eot');
@@ -632,10 +633,20 @@
 		font-size: 2.5rem;
 	}
 
-	.bck-enfasis,
+	.bck-enfasis-1,
 	strong {
 		color: #E94442;
 		font-weight: bold;
+	}
+
+	.bck-enfasis-2,
+	strong {
+		font-family: 'Conv_segoepr';
+	}
+
+	.bck-enfasis-3,
+	strong {
+		font-family: 'Conv_MyFont-CuadriculaRegular';
 	}
 
 	.content hr,
