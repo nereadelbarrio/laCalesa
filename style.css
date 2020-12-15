@@ -655,12 +655,6 @@
 		font-size: 2rem;
 	}
 
-	.content hr,
-	.cke_contents hr {
-		border: 0;
-		border-top: 2px solid #81b2d191 !important
-	}
-
 
 /*LISTAS*/
 /*ord*/
@@ -1102,7 +1096,7 @@ div.calculo table.marco * {
 }
 
 .content hr, .cke_contents hr {
-    border-top: 2px solid #85b426 !important;
+    border-top: 2px solid #81b2d191 !important;
 }
 
 .content_type_clase_laCalesa .slide_main input {
