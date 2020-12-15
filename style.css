@@ -935,6 +935,80 @@
 	    background-color: #e5e5e5;
 	}
 
+		/*pop up*/
+	.info-template .info-icon{
+		position: absolute;
+	    top: 0;
+	    left: 10px;
+	    -webkit-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -o-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	    width: 24px;
+	    height: 24px;
+	    -webkit-box-shadow: 0 0 2px #555;
+	    -moz-box-shadow: 0 0 2px #555;
+	    box-shadow: 0 0 2px #555;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    background: #fff;
+	    color: #0081b0;
+	    font-family: 'FontAwesome';
+	    font-size: 18px;
+	    line-height: 24px;
+	    text-align: center;
+	}
+
+	.info-template .info-title{
+		position: relative;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    height: 0;
+	    overflow: hidden;
+	    color: #0081b0;
+	    -webkit-transition: all ease-in-out .5s;
+	    -o-transition: all ease-in-out .5s;
+	    -moz-transition: all ease-in-out .5s;
+	    transition: all ease-in-out .5s;
+	    cursor: pointer;
+	}
+
+	.info-popover .popover-title:before, .popover-template .popover-title:before{
+		    content: '\f040';
+    position: absolute;
+    top: 7px;
+    left: 13px;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #0081b0;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+	}
+
+.info-popover .popover-title, 
+.popover-template .popover-title{
+	display: block;
+    position: relative;
+    background: #efefef;
+    padding-left: 46px;
+    color: #0081b0;
+    font-size: 2rem;
+    min-height: 35px;
+}
+
+.fa-times:before {
+    content: "\f00d";
+    color: #0081b0;
+}
+
 
 /**/
 
