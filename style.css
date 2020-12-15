@@ -686,7 +686,7 @@
 	}
 
 
-	.content ol,
+	/*.content ol,
 	.cke_contents ol {
 		list-style: none;
 		padding: 0;
@@ -709,7 +709,7 @@
 		text-align: right;
 		color: #85b426;
 		margin-top: -2px;
-	}
+	}*/
 
 	.texto_curso ul li,
 	.workspace ul li ul li,
