@@ -571,15 +571,16 @@
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/laCalesa_audio.png) 0 0 no-repeat;
+	background: url(images/audio.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
 	border-radius: 0
+	vertical-align: text-bottom;
 }
 
 #actividad .player.video {
-	background: url(images/laCalesa_video.png) 0 0 no-repeat;
+	background: url(images/video.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
