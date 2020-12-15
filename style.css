@@ -690,7 +690,39 @@
     margin-left: -35px;
     margin-right: 0;
     text-align: right;
-	}
+}
+
+	/*lista des 1*/
+
+#actividad .popover-content ul li, 
+#actividad .texto_curso ul li, 
+#actividad .workspace ul li li{
+	position: relative;
+    margin-bottom: 10px;
+}	
+
+#actividad .content .texto_curso .bck-ul-1 li,
+#actividad .content .workspace ul li .bck-ul-1 li ,
+#actividad .popover-background.shown .popover-content .bck-ul-1 li {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-left: -2px;
+}
+
+#actividad .content .texto_curso .bck-ul-1 li:before,
+#actividad .content .workspace ul li .bck-ul-1 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-1 li:before{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #81b2d1;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin-top: 11px;
+    margin-left: 12px;
+}
 
 	/*.content ol,
 	.cke_contents ol {
