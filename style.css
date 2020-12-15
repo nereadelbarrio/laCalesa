@@ -246,16 +246,17 @@
 	table {
 		margin-bottom: 20px;
 	}
+
 	/*LOGO*/
 	.content_type_clase_laCalesa .publisher-navbar .navbar-content{
-	    max-width: 960px;
+		max-width: 960px;
 	    margin: 0 auto;
 	    padding-left: 90px;
 	    padding-right: 50px;
 	}
 
 	.content_type_clase_laCalesa .logo-publisher{
-	    content: " ";
+		content: " ";
 	    background-image: url(images/Logoa.png);
 	    height: 36px;
 	    background-repeat: no-repeat;
@@ -538,12 +539,14 @@
 		display: block;
 		max-height: 300px;
 		overflow-y: auto;
+		font-family: 'Open Sans';
 	}
 
 	.content_type_clase_laCalesa .publisher-navbar .dropdown button {
 		background: none;
 		color: #878787;
 		border: none;
+		font-family: 'Open Sans';
 	}
 
 	.content_type_clase_laCalesa .publisher-navbar .dropdown button:focus {
@@ -557,7 +560,7 @@
 	}
 
 	.content_type_clase_laCalesa .publisher-navbar .dropdown li a {
-		color: #85b426;
+		color: #297fac;
 	}
 
 	.content_type_clase_laCalesa .publisher-navbar .dropdown .caret {
