@@ -255,18 +255,6 @@
 	    padding-right: 50px;
 	}
 
-	.content_type_clase_laCalesa .logo-publisher{
-		content: " ";
-	    background-image: url(images/Logoa.png);
-	    height: 36px;
-	    background-repeat: no-repeat;
-	    width: 136px;
-	    margin-left: -100px;
-	    margin-top: 17px;
-	    margin-right: 60px;
-	    float: left;
-	    background-size: contain;
-	}
 
 
 /**/
@@ -446,15 +434,15 @@
 	}
 	.content_type_clase_laCalesa .logo-publisher {
 		content: " ";
-		background-image: url(logo-blink.png);
-		height: 36px;
-		background-repeat: no-repeat;
-		width: 100px;
-		margin-left: -100px;
-		margin-top: 10px;
-		margin-right: 60px;
-		float: left;
-		background-size: contain;
+	    background-image: url(images/Logoa.png);
+	    height: 36px;
+	    background-repeat: no-repeat;
+	    width: 136px;
+	    margin-left: -100px;
+	    margin-top: 17px;
+	    margin-right: 60px;
+	    float: left;
+	    background-size: contain;
 	}
 
 	.content_type_clase_laCalesa .logo-publisher img {
