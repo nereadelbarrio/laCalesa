@@ -688,13 +688,14 @@ body{
 
 	.bck-enfasis-2{
 		font-family: 'Conv_segoepr';
-		font-size: 1.7rem;
 	}
 
 	.bck-enfasis-3{
 		font-family: 'Conv_MyFont-CuadriculaRegular';
-		font-weight: 600;
-		font-size: 2rem;
+	}
+
+	.bck-enfasis-4{
+		font-family: 'font-family: 'Conv_BarmeM72';';
 	}
 
 	.content hr,
