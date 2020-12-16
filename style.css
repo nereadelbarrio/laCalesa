@@ -64,6 +64,33 @@
 
 /**/
 
+/*TOC*/
+#indice .units ul li{
+	background: #297fac;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    margin-bottom: 8px;
+}
+
+#indice .units ul li.active:not(.disabled), 
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+#indice .units ul li:focus:not(.disabled){
+	background: #81B2D1;
+    border: 3px dashed #297fac;
+    padding: 5px 0;
+}
+
+#indice .units ul li a .title{
+	font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+}
+
+/**/
 
 	.body_clase .content-wrapper {
 		padding-top: 100px;
