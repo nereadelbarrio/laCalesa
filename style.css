@@ -1009,6 +1009,14 @@
     color: #0081b0;
 }
 
+/*enlaces*/
+a:hover, a:active, a:focus{
+	outline: 0;
+    color: #297fac;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 
 /**/
 
