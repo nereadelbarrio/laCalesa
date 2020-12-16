@@ -476,7 +476,7 @@
 		font-size: 2.0rem;
 		font-weight: 400;
 		cursor: pointer;
-		background: #878787;
+		background: #21496a;
 		border-radius: 120px;
 	}
 
@@ -532,7 +532,7 @@
 
 	.content_type_clase_laCalesa .publisher-navbar .dropdown button {
 		background: none;
-		color: #878787;
+		color: #21496a;
 		border: none;
 		font-family: 'Open Sans';
 	}
@@ -548,11 +548,11 @@
 	}
 
 	.content_type_clase_laCalesa .publisher-navbar .dropdown li a {
-		color: #297fac;
+		color: #21496a;
 	}
 
 	.content_type_clase_laCalesa .publisher-navbar .dropdown .caret {
-		border-color: #878787 transparent transparent transparent;
+		border-color: #21496a transparent transparent transparent;
 		margin-left: 6px;
 
 	}
@@ -935,7 +935,8 @@
 	    background-color: #e5e5e5;
 	}
 
-		/*pop up*/
+
+	/*pop up*/
 	.info-template .info-icon{
 		position: absolute;
 	    top: 0;
@@ -1016,7 +1017,6 @@ a:hover, a:active, a:focus{
     text-decoration: none;
     font-weight: 600;
 }
-
 
 /**/
 
