@@ -94,6 +94,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	DISPLAY: NONE;
 }
 
+.btn-primary, 
+.btn-primary.disabled, 
+.btn-primary.disabled:hover, 
+.btn-primary.disabled:focus{
+	background-color: #297fac;
+}
+
 /**/
 
 	.body_clase .content-wrapper {
