@@ -101,6 +101,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	background-color: #297fac;
 }
 
+body{
+	font: 400 15px 'Open Sans', sans-serif;
+}
+
 /**/
 
 	.body_clase .content-wrapper {
