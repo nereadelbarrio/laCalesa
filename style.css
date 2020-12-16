@@ -90,6 +90,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     display: block;
 }
 
+#indice .unit-content .header .title{
+	DISPLAY: NONE;
+}
+
 /**/
 
 	.body_clase .content-wrapper {
