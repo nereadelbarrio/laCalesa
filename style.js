@@ -22,6 +22,7 @@
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis-1' }},
 				{ name: 'Segoe print', element: 'span', attributes: { 'class': 'bck-enfasis-2' }},
 				{ name: 'My font', element: 'span', attributes: { 'class': 'bck-enfasis-3' }},
+				{ name: 'Barmeo', element: 'span', attributes: { 'class': 'bck-enfasis-4' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
 				{ name: 'Lista des 1', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
