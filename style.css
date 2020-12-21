@@ -914,6 +914,95 @@ body{
 		font-size: 1.8rem;
 	}
 
+		/*Caja 5*/
+	.bck-box.box-5 {
+	    background: #ffffff;
+	    padding: 21px 40px 16px 40px;
+	    position: relative;
+	    margin-top: 25px;
+	    border: 3px dashed #0081b0;
+	    border-radius: 50px;
+	}
+
+	.bck-box.box-5 .bck-title{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
+	}
+
+	.bck-box.box-5 .bck-content{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 1.8rem;
+	}
+
+	/*Caja 6*/
+	.bck-box.box-6 {
+	    background: #ffffff;
+	    padding: 21px 40px 16px 40px;
+	    position: relative;
+	    margin-top: 25px;
+	    border: 3px solid #0081b0;
+	    border-radius: 50px;
+	}
+
+	.bck-box.box-6 .bck-title{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
+	}
+
+	.bck-box.box-6 .bck-content{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 1.8rem;
+	}
+
+
+	/*Caja 7*/
+	.bck-box.box-7 {
+	    background: #ffffff;
+	    padding: 21px 40px 16px 40px;
+	    position: relative;
+	    margin-top: 25px;
+	    border: 3px dashed #231F20;
+	    border-radius: 50px;
+	}
+
+	.bck-box.box-7 .bck-title{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
+	}
+
+	.bck-box.box-7 .bck-content{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 1.8rem;
+	}
+
+	/*Caja 8*/
+	.bck-box.box-8 {
+	    background: #ffffff;
+	    padding: 21px 40px 16px 40px;
+	    position: relative;
+	    margin-top: 25px;
+	    border: 3px solid #231F20;
+	    border-radius: 50px;
+	}
+
+	.bck-box.box-8 .bck-title{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 2.4rem;
+	}
+
+	.bck-box.box-8 .bck-content{
+		color: #ffffff;
+		font-family: 'Conv_segoepr';
+		font-size: 1.8rem;
+	}
+
 	.bck-box.box-1 .bck-title p,
 	.bck-box.box-2 .bck-title p,
 	.bck-box.box-3 .bck-title p {
