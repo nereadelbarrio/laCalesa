@@ -1143,6 +1143,21 @@ a:hover, a:active, a:focus{
     font-weight: 600;
 }
 
+/*sopa de letras*/
+.coursetag_lacalesa .rf-tgrid{
+	font-family: 'Conv_MyFont-CuadriculaRegular';
+	text-transform: lowercase;
+}
+
+.coursetag_lacalesa .rf-wordcontainer.no-queries .rf-foundword{
+	font-family: 'Conv_MyFont-CuadriculaRegular';
+}
+
+.coursetag_lacalesa .rf-wordcontainer{
+	font-family: 'Conv_MyFont-CuadriculaRegular';
+}
+
+
 /**/
 
 @media screen and (max-width: 1099px) {
