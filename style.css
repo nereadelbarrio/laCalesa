@@ -1144,16 +1144,16 @@ a:hover, a:active, a:focus{
 }
 
 /*sopa de letras*/
-.coursetag_lacalesa .rf-tgrid{
+.coursetag_lacalesaprimaria .rf-tgrid{
 	font-family: 'Conv_MyFont-CuadriculaRegular';
 	text-transform: lowercase;
 }
 
-.coursetag_lacalesa .rf-wordcontainer.no-queries .rf-foundword{
+.coursetag_lacalesaprimaria .rf-wordcontainer.no-queries .rf-foundword{
 	font-family: 'Conv_MyFont-CuadriculaRegular';
 }
 
-.coursetag_lacalesa .rf-wordcontainer{
+.coursetag_lacalesaprimaria .rf-wordcontainer{
 	font-family: 'Conv_MyFont-CuadriculaRegular';
 }
 
