@@ -1147,16 +1147,17 @@ a:hover, a:active, a:focus{
 .coursetag_lacalesaprimaria .rf-tgrid{
 	font-family: 'Conv_MyFont-CuadriculaRegular';
 	text-transform: lowercase;
+	font-size: 1.8rem;
 }
 
 .coursetag_lacalesaprimaria .rf-wordcontainer.no-queries .rf-foundword{
 	font-family: 'Conv_MyFont-CuadriculaRegular';
-}
+	font-size: 1.8rem;
 
 .coursetag_lacalesaprimaria .rf-wordcontainer{
 	font-family: 'Conv_MyFont-CuadriculaRegular';
+	font-size: 1.8rem;
 }
-
 
 /**/
 
