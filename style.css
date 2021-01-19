@@ -1189,10 +1189,10 @@ unittag_repaso
 
 /**/
 #list-units .unittag_evaluacion{
-	background: #ffffff !important;
+	background: #121313 !important;
     border-radius: 0 18px 18px 0;
     padding: 3px;
-    border:3px solid #81B2D1 !important;
+    border:3px solid #121313 !important;
 }
 
 #list-units .unittag_evaluacion:hover{
