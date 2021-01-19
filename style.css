@@ -1183,11 +1183,11 @@ unittag_repaso
     padding: 5px 0;
 }
 
-.units ul#list-units .unittag_autoevaluacion a .title{
+#list-units .unittag_autoevaluacion a .title{
 	color: #121313 !important;
 }
 
-.units ul#list-units .unittag_autoevaluacion a .title:hover {
+#list-units .unittag_autoevaluacion a .title:hover {
     color: #ffffff !important;
 }
 
@@ -1205,7 +1205,7 @@ unittag_repaso
     padding: 5px 0;
 }
 
-.units ul#list-units .unittag_evaluacion a .title{
+#list-units .unittag_evaluacion a .title{
     color: #ffffff !important;
 }
 
@@ -1223,16 +1223,13 @@ unittag_repaso
     padding: 5px 0;
 }
 
-.units ul#list-units .unittag_repaso a .title{
+#list-units .unittag_repaso a .title{
 	color: #297fac !important;
 }
 
-.units ul#list-units .unittag_repaso a .title:hover {
+#list-units .unittag_repaso a .title:hover {
     color: #ffffff !important;
 }
-
-/**/
-	
 
 /**/
 
