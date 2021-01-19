@@ -1166,66 +1166,7 @@ a:hover, a:active, a:focus{
 	
 /*************UNITTAG**************/
 
-#list-units .unittag_autoevaluacion{
-	background: #ffffff !important;
-    border-radius: 0 18px 18px 0;
-    padding: 3px;
-    border:3px solid #297fac !important;
-}
 
-#list-units .unittag_autoevaluacion:hover{
-	background: #81B2D1 !important;
-    border: 3px dashed #297fac !important;
-    padding: 5px 0;
-}
-
-#list-units .unittag_autoevaluacion a .title{
-	color: #121313 !important;
-}
-
-#list-units .unittag_autoevaluacion a .title:hover {
-    color: #ffffff !important;
-}
-
-/**/
-#list-units .unittag_evaluacion{
-	background: #121313 !important;
-    border-radius: 0 18px 18px 0;
-    padding: 3px;
-    border:3px solid #121313 !important;
-}
-
-#list-units .unittag_evaluacion:hover{
-	background: #81B2D1 !important;
-    border: 3px dashed #297fac !important;
-    padding: 5px 0;
-}
-
-#list-units .unittag_evaluacion a .title{
-    color: #ffffff !important;
-}
-
-/**/
-#list-units .unittag_repaso{
-	background: #ffffff !important;
-    border-radius: 0 18px 18px 0;
-    padding: 3px;
-    border:3px solid #121313 !important;
-}
-
-#list-units .unittag_repaso:hover{
-	background: #81B2D1 !important;
-    border: 3px dashed #297fac !important;
-    padding: 5px 0;
-}
-
-#list-units .unittag_repaso a .title{
-	color: #297fac !important;
-}
-
-#list-units .unittag_repaso a .title:hover {
-    color: #ffffff !important;
-}
 
 /**/
 
