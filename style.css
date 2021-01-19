@@ -1164,11 +1164,7 @@ a:hover, a:active, a:focus{
 	font-size: 1.8rem;
 }
 	
-/*************UNITTAG***********
-unittag_autoevaluacion
-unittag_evaluación
-unittag_repaso
-***/
+/*************UNITTAG**************/
 
 #list-units .unittag_autoevaluacion{
 	background: #ffffff !important;
