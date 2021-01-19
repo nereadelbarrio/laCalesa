@@ -1165,15 +1165,15 @@ a:hover, a:active, a:focus{
 }
 	
 /*************UNITTAG**************/
-#list-units .unittag_autoevaluacion{
+.units ul#list-units .unittag_autoevaluacion{
 	background: #ffffff !important;
-    border-radius: 0 18px 18px 0;
+    border-radius:18px 18px;
     padding: 3px;
     border:3px solid #297fac !important;
 }
 
 
-#list-units .unittag_autoevaluacion:hover{
+.units ul#list-units .unittag_autoevaluacion:hover{
 	background: #81B2D1 !important;
     border: 3px dashed #297fac !important;
     padding: 5px 0;
@@ -1183,7 +1183,7 @@ a:hover, a:active, a:focus{
 	color: #121313 !important;
 }
 
-.units ul#list-units .unittag_autoevaluacion a .title:hover {
+.units ul#list-units .unittag_autoevaluacion a .title:hover{
     color: #ffffff !important;
 }
 
@@ -1223,11 +1223,9 @@ a:hover, a:active, a:focus{
 	color: #297fac !important;
 }
 
-#list-units .unittag_repaso a .title:hover {
+#list-units .unittag_repaso a .title:hover{
     color: #ffffff !important;
 }
-
-
 
 /**/
 
