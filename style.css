@@ -1178,8 +1178,9 @@ a:hover, a:active, a:focus{
     margin: 10px;
     border-radius: 10px;
     border: 2px solid #d8d8d8;
-    background: #fff url(images/Logoa.png) center center / 100px auto no-repeat;
+    /*background: #fff url(images/Logoa.png) center center / 100px auto no-repeat;*/
     transition: all .5s ease;
+	background-image: url(images/Logoa.png);
 }
 
 /*********COURSETAGS********/
