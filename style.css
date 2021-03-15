@@ -1170,6 +1170,18 @@ a:hover, a:active, a:focus{
     text-align: center;
 }
 
+/*memory*/
+#actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #d8d8d8;
+    background: #fff url(images/Logoa.png) center center / 100px auto no-repeat;
+    transition: all .5s ease;
+}
+
 /*********COURSETAGS********/
 /*sopa de letras*/
 .coursetag_lacalesaprimaria .rf-tgrid{
